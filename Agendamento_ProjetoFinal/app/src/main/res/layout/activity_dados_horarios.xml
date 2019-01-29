@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DadosHorariosActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/formLinearLayout">
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            android:text="Horário"
+            android:textSize="20dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/edtProfissional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:hint="Profissional"
+            android:spinnerMode="dialog"
+            />
+
+        <EditText
+            android:id="@+id/edt_data"
+            android:layout_below="@+id/txtView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Data"
+            android:inputType="textPersonName"
+            android:maxLength="11"
+            />
+
+
+        <Button
+            android:id="@+id/btnData"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Selecionar data"
+            app:layout_constraintBottom_toBottomOf="@+id/edt_data"
+            app:layout_constraintBottom_toTopOf="@+id/btnCancelar"
+            app:layout_constraintEnd_toEndOf="@+id/edt_data"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/edt_data"
+            app:layout_constraintTop_toBottomOf="@+id/edt_data" />
+
+
+        <EditText
+            android:id="@+id/edt_hora"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Hora"
+            android:inputType="textPersonName"
+            android:maxLength="11"
+            />
+
+        <Button
+            android:id="@+id/btnHora"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Selecionar hora"
+            app:layout_constraintBottom_toTopOf="@+id/edtProfissional"
+           />
+
+
+
+        <Button
+            android:id="@+id/btnSalvar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="cadastro"
+            android:text="Salvar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnCancelar"
+            app:layout_constraintHorizontal_bias="0.0"
+
+             />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="cancelar"
+            android:text="Cancelar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btnSalvar"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnSalvar"
+            app:layout_constraintTop_toBottomOf="@+id/btnSalvar" />
+
+    </LinearLayout>
+
+</RelativeLayout>

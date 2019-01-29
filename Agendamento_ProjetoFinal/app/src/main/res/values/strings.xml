@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sigsaúde Agendamento</string>
+
+
+    <string name="nav_agende">Agende sua consulta</string>
+    <string name="nav_unidades">Visualize as unidades</string>
+    <string name="nav_agendamentos">Consulte seus agendamentos</string>
+    <string name="nav_perfil">Edite seu perfil</string>
+    <string name="nav_sair">Sair</string>
+
+
+    <string name="drawer_open">Abrir o navigation drawer</string>
+    <string name="drawer_close">Fechar o navigation drawer</string>
+    <string name="title_choose">Escolha uma opção</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profissional">Profissional</string>
+
+</resources>

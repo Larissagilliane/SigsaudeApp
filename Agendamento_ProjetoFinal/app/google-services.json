@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "330434221863",
+    "firebase_url": "https://sigsaudeagendamento.firebaseio.com",
+    "project_id": "sigsaudeagendamento",
+    "storage_bucket": "sigsaudeagendamento.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330434221863:android:110bd1dd2955882a",
+        "android_client_info": {
+          "package_name": "com.example.sigsaude.agendamento_projetofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330434221863-ari00jo6kvo3mu80njg8501tj23e994v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sigsaude.agendamento_projetofinal",
+            "certificate_hash": "e2467ae0fda1f0daec5686840346d9f0721493de"
+          }
+        },
+        {
+          "client_id": "330434221863-srk9qepbbf40rugiissplsa6mr7gcjr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNw666M5qAgcsIqbjqVQZkRT790QmU0ds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330434221863-srk9qepbbf40rugiissplsa6mr7gcjr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

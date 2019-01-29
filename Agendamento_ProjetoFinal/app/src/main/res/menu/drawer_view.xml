@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_agende"
+            android:title="@string/nav_agende"
+            />
+        <item
+            android:id="@+id/nav_unidades"
+            android:title="@string/nav_unidades"
+            />
+        <item
+            android:id="@+id/nav_agendamentos"
+            android:title="@string/nav_agendamentos"
+            />
+        <item
+            android:id="@+id/nav_perfil"
+            android:title="@string/nav_perfil"
+            />
+        <item
+            android:id="@+id/nav_sair"
+            android:title="@string/nav_sair"
+            />
+
+    </group>
+
+</menu>

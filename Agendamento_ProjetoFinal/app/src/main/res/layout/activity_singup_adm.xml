@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SingUpAdmActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:id="@+id/formLinearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Administrador"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/edtNomeCad"
+            android:layout_below="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Nome Completo"
+            android:inputType="textPersonName"
+            />
+
+
+
+        <EditText
+            android:id="@+id/edtSenhaCad"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            />
+
+        <EditText
+            android:id="@+id/edtcpfCad"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="CPF"
+            android:inputType="textPersonName"
+            android:maxLength="11"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnCadastroCad"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
+            android:onClick="cadastro"
+            android:text="Cadastrar"
+            />
+
+    </LinearLayout>
+</LinearLayout>
